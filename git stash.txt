@@ -1,0 +1,16 @@
+all are unstage here (red-red
+
+now tempoprary save with stash
+
+git stash -- saves all in a particular stash
+git stash list -- display all stashed things
+git stash apply -- brings back the current saved stash to the working directory
+git stash apply stash@{1} --- brings back the particular saved stash to the working directory
+git stash drop  ----deletes the current stash from the stash list
+git stash drop stash@{0} -- deletes the particular stash from the stash list
+
+
+git stash pop  --> stash apply then stash drop  -- (curent stash)
+git stash pop stash@{2}   ---  stash apply then stash drop  -- (particular stash)
+
+
