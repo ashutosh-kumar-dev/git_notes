@@ -1,0 +1,17 @@
+git reset --soft HEAD~1
+-- remove the first commit and bring the files to staging area
+
+git reset HEAD~1
+--- bring the files from staging area to the working directory
+
+git reset --hard HEAD~1
+---- removes all the file data everywhere from commit to working directory
+
+
+============================================
+
+git reset --staged "file.txt"
+	OR
+git reset HEAD "file.txt"
+
+--  bring a particular file from staging area to working directory.
