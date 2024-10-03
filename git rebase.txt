@@ -1,0 +1,16 @@
+1. git fetch origin
+2. git rebase origin/main
+
+if conflicts then :
+	1. resolve the conflicts 
+	2. then : git add <file-name>
+	3. git rebase --continue
+
+to stop the rebase process :
+	1. git rebase --abort
+
+3. here all rebase related things are done.
+
+
+4. after rebase if you want to push then :
+	1. git push origin <branch-name>
