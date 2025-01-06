@@ -1,0 +1,12 @@
+Problem: 
+the folderName has space at end. And after not proper cloning --> on git status it will show all files deleted.
+
+Solution :
+1. after git clone command (normal cloning)
+2. git restore --source=HEAD :/
+3. git add *  ( it will not added as your new process
+4. git status ( it will show all the files added but the incorrect folderNAme will not
+5. then commit,  push.
+
+**  it will not overwrite your previous commit with this. ** 
+
